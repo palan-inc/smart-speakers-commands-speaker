@@ -6,5 +6,15 @@ export const Google = {
       pronunciation: 'おんがくかけて',
       description: 'ランダムで音楽をかけてくれるコマンドです。',
     },
+    {
+      title: '音楽とめて',
+      pronunciation: 'おんがくとめて',
+      description: '再生中の音楽を停止するコマンドです。',
+    },
+    {
+      title: 'ジャズ流して',
+      pronunciation: 'ジャズながして',
+      description: 'ジャズ音楽をかけてくれるコマンドです。',
+    },
   ]
 }
