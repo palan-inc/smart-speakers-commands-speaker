@@ -1,16 +1,8 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import SpeakerButton from './components/speaker_button';
 
 class App extends Component {
-
-  onClick(e) {
-    var ssu = new SpeechSynthesisUtterance();
-    ssu.text = 'オッケーグーグル 、 シ　シ　ド・カフカのりめんばーみーながして';
-    ssu.lang = 'ja-JP';
-    speechSynthesis.speak(ssu);
-  }
-
   render() {
     return (
       <div>
@@ -20,7 +12,7 @@ class App extends Component {
                 <div class="col-sm-2 col-md-2 py-3">
                   <h4 class="text-white">
                   <i class="fas fa-microphone"></i>
-                     SCSS
+                     SSCS
                   </h4>
                 </div>
                 <div class="col-sm-10 col-md-10 py-3">
@@ -32,7 +24,7 @@ class App extends Component {
         <div className="jumbotron">
           <header class="text-center">
             <h2>Smart Speaker Commands Speaker （SCSS）</h2>
-            <p>スマートスピーカーのコマンドを発音して代行してくれるサイトです。コマンドをクリックすると発音されます。<br/>
+            <p>スマートスピーカーのコマンドを日本語で発音して代行してくれるサイトです。コマンドをクリックすると発音されます。<br/>
               コマンドの追加は<a href="" target="_blank">こちらから</a>お願いします。
             </p>
           </header>
@@ -41,18 +33,17 @@ class App extends Component {
           <div class="row">
             <div class="col-sm-6">
               <h2><i class="fab fa-amazon"></i> Alexa</h2>
-              <button class="card" onClick={this.onClick}>
-                <div class="card-body">
-                  <h4 class="card-title">
-                    <i class="fas fa-play"></i>
-                    音楽をかける
-                  </h4>
-                  <p class="card-text">Alexa, 音楽かけて</p>
-                </div>
-              </button>
+              <div class="row">
+                <SpeakerButton speaker_type="alexa">
+                </SpeakerButton>
+              </div>
             </div>
             <div class="col-sm-6">
               <h2><i class="fab fa-google"></i> Google Home</h2>
+              <div class="row">
+                <SpeakerButton speaker_type="google">
+                </SpeakerButton>
+              </div>
             </div>
           </div>
         </div>
