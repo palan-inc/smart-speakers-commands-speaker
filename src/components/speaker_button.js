@@ -31,11 +31,11 @@ export default class SpeakerButton extends Component {
           <div class="col-sm-6 mb-2 mt-2">
             <button class="card" onClick={() => this._onClick(command.pronunciation)}>
               <div class="card-body">
-                <h4 class="card-title">
-                  <i class="fas fa-play"></i>
+                <h4 class="card-title text-left">
+                  <i class="fas fa-play"></i>　
                   {command.title}
                 </h4>
-                <p class="card-text">
+                <p class="card-text text-left">
                   {command.description}
                 </p>
               </div>

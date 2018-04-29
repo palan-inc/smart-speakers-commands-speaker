@@ -25,20 +25,20 @@ class App extends Component {
           <header class="text-center">
             <h2>Smart Speaker Commands Speaker （SCSS）</h2>
             <p>スマートスピーカーのコマンドを日本語で発音して代行してくれるサイトです。コマンドをクリックすると発音されます。<br/>
-              コマンドの追加は<a href="" target="_blank">こちらから</a>お願いします。
+              コマンドの追加は<a href="https://github.com/eishis/Smart-Speakers-Commands-Speaker" target="_blank">こちらから</a>お願いします。
             </p>
           </header>
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-sm-6">
+            <div class="col-sm-6 mb-2 mt-2">
               <h2><i class="fab fa-amazon"></i> Alexa</h2>
               <div class="row">
                 <SpeakerButton speaker_type="alexa">
                 </SpeakerButton>
               </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 mb-2 mt-2">
               <h2><i class="fab fa-google"></i> Google Home</h2>
               <div class="row">
                 <SpeakerButton speaker_type="google">
