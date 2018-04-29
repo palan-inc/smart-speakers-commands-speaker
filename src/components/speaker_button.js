@@ -14,6 +14,8 @@ export default class SpeakerButton extends Component {
         this.speaker_type = Google;
         break;
       }
+      default:
+      break;
     }
   }
 

@@ -25,7 +25,7 @@ class App extends Component {
           <header class="text-center">
             <h2>Smart Speaker Commands Speaker （SCSS）</h2>
             <p>スマートスピーカーのコマンドを日本語で発音して代行してくれるサイトです。コマンドをクリックすると発音されます。<br/>
-              コマンドの追加は<a href="https://github.com/eishis/Smart-Speakers-Commands-Speaker" target="_blank">こちらから</a>お願いします。
+              コマンドの追加は<a href="https://github.com/eishis/smart-speakers-commands-speaker" target="_blank" rel="noopener noreferrer">こちらから</a>お願いします。
             </p>
           </header>
         </div>
