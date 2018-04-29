@@ -28,7 +28,7 @@ export default class SpeakerButton extends Component {
     return (
       this.speaker_type.commands.map((command) => {
         return (
-          <div class="col-sm-6">
+          <div class="col-sm-6 mb-2 mt-2">
             <button class="card" onClick={() => this._onClick(command.pronunciation)}>
               <div class="card-body">
                 <h4 class="card-title">
