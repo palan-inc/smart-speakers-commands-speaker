@@ -16,7 +16,7 @@ class App extends Component {
                   </h4>
                 </div>
                 <div class="col-sm-10 col-md-10 py-3">
-                  <p class="text-white">スマートスピーカーのコマンド代行サービス</p>
+                  <p class="text-white">スマートスピーカーのコマンド発音代行サービス</p>
                 </div>
               </div>
             </div>
