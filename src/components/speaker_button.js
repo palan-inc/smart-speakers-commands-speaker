@@ -20,7 +20,7 @@ export default class SpeakerButton extends Component {
   }
 
   _onClick(command) {
-    var ssu = new SpeechSynthesisUtterance();
+    let ssu = new SpeechSynthesisUtterance();
     ssu.text = this.speaker_type.pre_commands + command;
     ssu.lang = 'ja-JP';
     speechSynthesis.speak(ssu);
