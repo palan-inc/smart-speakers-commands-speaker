@@ -1,3 +1,8 @@
+h1{
+font-size: 1.5rem;
+margin: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -21,12 +26,243 @@
 .App-intro {
   font-size: large;
 }
+.bg-dark{
+background-color: #252525!important;
+}
+
+.header{
+letter-spacing: 2px;
+font-size: 12px;
+}
+.header p{
+  margin: 0;
+}
 
 .card {
   width: 100%;
+  border: none;
+  box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.1);
+  color: #073f69;
+}
+.card:hover {
+  box-shadow: 2px 2px 3px 2px rgba(0,0,0,0.2);
+	opacity: 0.8;
+  transition: .2s;
 }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+.mv{
+  background: linear-gradient(-45deg, rgba(0, 255, 173, 0.43), rgba(0, 55, 255, 0.8)),url(img/alexa5.jpg);
+  background-size: cover;
+  margin-bottom: 0;
+  text-shadow: 1px 2px 2px #9c9c9c;
+  color: #fff;
+  border-radius: 0;
+}
+@media (max-width: 576px){
+.mv{
+    padding: 3rem 2rem;
+  }
+}
+.mv_ttl{
+  text-align: center;
+}
+@media (max-width: 576px){
+.mv_ttl{
+  text-align: left;
+  }
+}
+.mv_ttl a{
+  border-bottom: 1px solid #fff;
+  padding: 2px;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.mv h2{
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 2rem;
+}
+@media (max-width: 576px){
+  .mv h2{
+  font-size: 1.4rem;
+  }
+}
+/*radio button start*/
+.radio_button{
+  display: inline-block;
+}
+.radio_button input {
+	display: none;
+}
+.radio_button label{
+	display: block;
+	float: left;
+	cursor: pointer;
+	width: 170px;
+  height: 52px;
+	margin: 1rem auto;
+	padding: 16px;
+	background: #bdc3c7;
+	color: #869198;
+	font-size: 16px;
+	text-align: center;
+	line-height: 1.2;
+	transition: .2s;
+}
+@media (max-width: 576px){
+  .radio_button label{
+    width: 140px;
+  }
+}
+@media (max-width: 320px){
+  .radio_button label{
+    width: 128px;
+    height: 38px;
+    padding: 10px;
+  }
+}
+.radio_button label:first-of-type{
+	border-radius: 3px 0 0 3px;
+}
+.radio_button label:last-of-type{
+	border-radius: 0 3px 3px 0;
+}
+.radio_button input[type="radio"]:checked + .switch-on {
+	background-color: #a1b91d;
+	color: #fff;
+}
+.radio_button input[type="radio"]:checked + .switch-off {
+	background-color: #e67168;
+	color: #fff;
+}
+/*radio button end*/
+
+/*search form start*/
+#form1{
+margin-bottom: 2rem;
+}
+@media (max-width: 576px){
+  #form1{
+  margin-bottom: 0;
+  }
+}
+#sbox {
+height: 50px;
+padding: 0 10px;
+width:269px;
+border-radius:2px 0 0 2px;
+border-right:none;
+border:solid 3px #eaeaea;
+outline: 0;
+}
+@media (max-width: 576px){
+  #sbox {
+ width:auto;
+ }
+}
+@media (max-width: 320px){
+  #sbox {
+ width:186px;
+ }
+}
+#sbtn{
+padding: 0;
+width: 70px;
+height: 50px;
+border-radius:0 2px 2px 0;
+background: #549ddc;
+color:#fff;
+border:solid 3px #eaeaea;
+border-left:none;
+font-weight:bold;
+font-size:16px;
+outline: 0;
+position: relative;
+top: 16px;
+}
+#sbtn:hover{
+opacity: 0.75;
+}
+#form1 .fa-microphone{
+position: relative;
+right: 46px;
+top: 5px;
+font-size: 1.8rem;
+}
+/*search form end*/
+.main{
+  background-color: #F5F5F5;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+/*tab-switching whole style*/
+.tabs {
+  margin-top: 50px;
+  padding-bottom: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;}
+
+/*tab style*/
+.tab_item {
+  width: calc(100%/2);
+  height: 50px;
+  border-bottom: 3px solid #549ddc;
+  background-color: #d9d9d9;
+  line-height: 50px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #565656;
+  display: block;
+  float: left;
+  text-align: center;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+@media (max-width: 576px){
+  .tab_item {
+  font-size: 0.8rem;
+  }
+}
+.tab_item:hover {
+  opacity: 0.75;
+}
+
+/*radio button disappear*/
+input[name="tab_item"] {
+  display: none;
+}
+
+/*tab-switching contents style*/
+.tab_content {
+  display: none;
+  padding: 40px 40px 0;
+  clear: both;
+  overflow: hidden;
+}
+@media (max-width: 576px){
+  .tab_content {
+    padding: 40px 20px 0;
+ }
+}
+
+/*show the selected tab contents*/
+#all:checked ~ #all_content,
+#programming:checked ~ #programming_content,
+#design:checked ~ #design_content {
+  display: block;
+}
+
+/*change the selected tab style*/
+.tabs input:checked + .tab_item {
+  background-color: #549ddc;
+  color: #fff;
 }

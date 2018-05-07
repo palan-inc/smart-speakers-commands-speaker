@@ -6,47 +6,59 @@ class App extends Component {
   render() {
     return (
       <div>
-        <div class="bg-dark">
-            <div class="container">
-              <div class="row">
-                <div class="col-sm-2 col-md-2 py-3">
-                  <h4 class="text-white">
+        <div class="bg-dark header">
+            <div class="container py-3">
+              <div class="logo">
+                  <h1 class="text-white">
                   <i class="fas fa-microphone"></i>
                      SSCS
-                  </h4>
+                  </h1>
                 </div>
-                <div class="col-sm-10 col-md-10 py-3">
                   <p class="text-white">スマートスピーカーのコマンド発音代行サービス</p>
-                </div>
-              </div>
-            </div>
+            </div>{/* container */}
           </div>
-        <div className="jumbotron">
-          <header class="text-center">
+        <div className="jumbotron mv">
+          <header class="mv_ttl">
             <h2>Smart Speaker Commands Speaker （SCSS）</h2>
             <p>スマートスピーカーのコマンドを日本語で発音して代行してくれるサイトです。コマンドをクリックすると発音されます。<br/>
               コマンドの追加は<a href="https://github.com/eishis/smart-speakers-commands-speaker" target="_blank" rel="noopener noreferrer">こちらから</a>お願いします。
             </p>
-          </header>
-        </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-6 mb-2 mt-2">
-              <h2><i class="fab fa-amazon"></i> Alexa</h2>
-              <div class="row">
-                <SpeakerButton speaker_type="alexa">
-                </SpeakerButton>
-              </div>
-            </div>
-            <div class="col-sm-6 mb-2 mt-2">
-              <h2><i class="fab fa-google"></i> Google Home</h2>
-              <div class="row">
-                <SpeakerButton speaker_type="google">
-                </SpeakerButton>
-              </div>
-            </div>
+          <div class="radio_button">{/* radio button */}
+          <input type="radio" name="s2" id="on" value="1" checked="checked"/>
+          <label for="on" class="switch-on">Alexa</label>
+          <input type="radio" name="s2" id="off" value="0"/>
+          <label for="off" class="switch-off">Google Home</label>
           </div>
-        </div>
+            <form id="form1" action="自分のサイトURL">{/* search form */}
+            <input id="sbox" name="s" type="text" placeholder="キーワードを入力" />
+            <input id="sbtn" type="submit" value="" />
+            <i class="fas fa-microphone fa-2x"></i>
+            </form>
+          </header>
+        </div>{/* jumbotron mv */}
+      <div class="main">
+        <div class="container">
+
+    <div class="tabs">{/* tab switching start*/}
+    <input id="all" type="radio" name="tab_item" checked/>
+    <label class="tab_item" for="all"><i class="fab fa-amazon"></i> Alexa</label>
+    <input id="programming" type="radio" name="tab_item"/>
+    <label class="tab_item" for="programming"><i class="fab fa-google"></i> Google Home</label>
+    <div class="tab_content" id="all_content">
+    <div class="row">
+      <SpeakerButton speaker_type="alexa">
+      </SpeakerButton>
+    </div>
+    </div>
+    <div class="tab_content" id="programming_content">
+    <div class="row">
+      <SpeakerButton speaker_type="google">
+      </SpeakerButton>
+    </div>
+</div>
+</div>{/* tab switching end*/}
+          </div>{/* container */}
+        </div>{/* main */}
       </div>
     );
   }
