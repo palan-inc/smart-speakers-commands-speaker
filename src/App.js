@@ -23,7 +23,7 @@ class App extends Component {
           </div>
         <div className="jumbotron">
           <header className="text-center">
-            <h2>Smart Speaker's Commands Speaker （SCSS）</h2>
+            <h2>Smart Speaker's Commands Speaker （SSCS）</h2>
             <p>スマートスピーカーのコマンドを日本語で発音して代行してくれるサイトです。コマンドをクリックすると発音されます。<br/>
               コマンドの追加は<a href="https://github.com/eishis/smart-speakers-commands-speaker" target="_blank" rel="noopener noreferrer">こちらから</a>お願いします。
             </p>
