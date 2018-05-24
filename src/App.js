@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import SpeakerButton from './components/speaker_button';
+import SpeakerRaddioButton from './components/speaker_raddio_button';
+import FreeWordBox from './components/free_word_box';
 
 class App extends Component {
   render() {
@@ -23,17 +25,8 @@ class App extends Component {
             <p>スマートスピーカーのコマンドを日本語で発音して代行してくれるサイトです。コマンドをクリックすると発音されます。<br/>
               コマンドの追加は<a href="https://github.com/eishis/smart-speakers-commands-speaker" target="_blank" rel="noopener noreferrer">こちらから</a>お願いします。
             </p>
-          <div className="radio_button">{/* radio button */}
-          <input type="radio" name="s2" id="on" value="1" checked="checked"/>
-          <label for="on" className="switch-on">Alexa</label>
-          <input type="radio" name="s2" id="off" value="0"/>
-          <label for="off" className="switch-off">Google Home</label>
-          </div>
-            <form id="form1" action="自分のサイトURL">{/* search form */}
-            <input id="sbox" name="s" type="text" placeholder="キーワードを入力" />
-            <input id="sbtn" type="submit" value="" />
-            <i className="fas fa-microphone fa-2x"></i>
-            </form>
+          <SpeakerRaddioButton/>
+          <FreeWordBox/>
           </header>
         </div>{/* jumbotron mv */}
       <div className="main">
