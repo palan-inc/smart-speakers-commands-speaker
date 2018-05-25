@@ -183,17 +183,19 @@ border-left:none;
 font-weight:bold;
 font-size:16px;
 outline: 0;
+top: 3px;
 position: relative;
-top: 16px;
+cursor: pointer;
+cursor: hand;
 }
 #sbtn:hover{
 opacity: 0.75;
 }
 #form1 .fa-microphone{
 position: relative;
-left: 134px;
-bottom: 37px;
 font-size: 1.8rem;
+cursor: pointer;
+cursor: hand;
 }
 @media (max-width: 576px){
   #form1 .fa-microphone{

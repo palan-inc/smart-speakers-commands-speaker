@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import SpeakerButton from './components/speaker_button';
-import SpeakerRaddioButton from './components/speaker_raddio_button';
 import FreeWordBox from './components/free_word_box';
 
 class App extends Component {
@@ -25,7 +24,6 @@ class App extends Component {
             <p>スマートスピーカーのコマンドを日本語で発音して代行してくれるサイトです。コマンドをクリックすると発音されます。<br/>
               コマンドの追加は<a href="https://github.com/eishis/smart-speakers-commands-speaker" target="_blank" rel="noopener noreferrer">こちらから</a>お願いします。
             </p>
-          <SpeakerRaddioButton/>
           <FreeWordBox/>
           </header>
         </div>{/* jumbotron mv */}
