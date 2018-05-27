@@ -132,11 +132,11 @@ font-size: 12px;
 .radio_button label:last-of-type{
 	border-radius: 0 3px 3px 0;
 }
-.radio_button input[type="radio"]:checked + .switch-on {
+.radio_button input[type="radio"]:checked + .switch-alexa {
 	background-color: #a1b91d;
 	color: #fff;
 }
-.radio_button input[type="radio"]:checked + .switch-off {
+.radio_button input[type="radio"]:checked + .switch-google {
 	background-color: #e67168;
 	color: #fff;
 }
