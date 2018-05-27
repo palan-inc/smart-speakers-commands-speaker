@@ -57,7 +57,7 @@ export default class Header extends Component {
                 checked={this.state.speaker_type === "alexa"}
                 onChange={this._toggleButton}
               />
-              <label for="alexa" className="switch-alexa">Alexa</label>
+              <label htmlFor="alexa" className="switch-alexa">Alexa</label>
               <input
                 type="radio"
                 value="google"
@@ -66,7 +66,7 @@ export default class Header extends Component {
                 checked={this.state.speaker_type === "google"}
                 onChange={this._toggleButton}
               />
-              <label for="google" className="switch-google">Google Home</label>
+              <label htmlFor="google" className="switch-google">Google Home</label>
             </div>
             <div id="form1">
               <input id="sbox"

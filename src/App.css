@@ -264,8 +264,8 @@ input[name="tab_item"] {
 }
 
 /*show the selected tab contents*/
-#all:checked ~ #all_content,
-#programming:checked ~ #programming_content,
+#main_alexa:checked ~ #alexa_content,
+#main_google:checked ~ #google_content,
 #design:checked ~ #design_content {
   display: block;
 }
