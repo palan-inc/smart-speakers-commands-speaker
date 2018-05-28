@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {Alexa} from '../const/alexa';
+import {Google} from '../const/google';
 
 export default class Header extends Component {
   constructor(props) {
@@ -16,11 +18,11 @@ export default class Header extends Component {
     let pre_commands = '';
     switch (this.state.speaker_type) {
       case 'alexa': {
-        pre_commands = "alexa、";
+        pre_commands = Alexa.pre_commands;
         break;
       }
       case 'google': {
-        pre_commands = "OK Google、";
+        pre_commands = Google.pre_commands;
         break;
       }
       default:
