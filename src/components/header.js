@@ -13,7 +13,7 @@ export default class Header extends Component {
     this._toggleButton = this._toggleButton.bind(this);
   }
 
-  _onClick(e) {
+  _onClick() {
     let ssu = new SpeechSynthesisUtterance();
     let pre_commands = '';
     switch (this.state.speaker_type) {
@@ -71,7 +71,9 @@ export default class Header extends Component {
               <label htmlFor="google" className="switch-google">Google Home</label>
             </div>
             <div id="form1">
-              <input id="sbox"
+              <input
+                type="text"
+                id="sbox"
                 defaultValue={this.state.text_value}
                 onChange={this._changeText}
                 placeholder="キーワードを入力"
