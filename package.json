@@ -4,12 +4,12 @@
   "homepage": "https://eishis.github.io/smart-speakers-commands-speaker",
   "private": true,
   "dependencies": {
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "react-scripts": "1.1.4",
+    "deep-extend": ">=0.5.1",
     "merge": ">=1.2.1",
     "randomatic": ">=3.0.0",
-    "deep-extend": ">=0.5.1"
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
