@@ -5,7 +5,7 @@ export default class Main extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      speaker_type: "alexa",
+      speaker_type: "google",
     };
     this._toggleButton = this._toggleButton.bind(this);
   }

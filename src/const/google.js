@@ -2,6 +2,11 @@ export const Google = {
   pre_commands: 'OK Google、',
   commands: [
     {
+      title: 'オフィスBGM',
+      pronunciation: 'オフィスBGMでspotify で音楽を流して',
+      description: 'palanのオフィスで音楽をかける為のコマンドです',
+    },
+    {
       title: '音楽かけて',
       pronunciation: 'おんがくかけて',
       description: 'ランダムで音楽をかけてくれるコマンドです。',
@@ -30,11 +35,6 @@ export const Google = {
       title: 'ジャズ流して',
       pronunciation: 'ジャズながして',
       description: 'ジャズ音楽をかけてくれるコマンドです。',
-    },
-    {
-      title: 'この曲名を教えて',
-      pronunciation: 'この曲名を教えて',
-      description: '現在流れている曲名を教えてくれるコマンドです。',
     },
     {
       title: 'この曲をリピートして',
