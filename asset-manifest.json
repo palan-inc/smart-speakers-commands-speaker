@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/smart-speakers-commands-speaker/static/css/main.1bc87a50.chunk.css",
-    "main.js": "/smart-speakers-commands-speaker/static/js/main.b263796a.chunk.js",
-    "main.js.map": "/smart-speakers-commands-speaker/static/js/main.b263796a.chunk.js.map",
+    "main.js": "/smart-speakers-commands-speaker/static/js/main.9e556acd.chunk.js",
+    "main.js.map": "/smart-speakers-commands-speaker/static/js/main.9e556acd.chunk.js.map",
     "runtime-main.js": "/smart-speakers-commands-speaker/static/js/runtime-main.80210cd2.js",
     "runtime-main.js.map": "/smart-speakers-commands-speaker/static/js/runtime-main.80210cd2.js.map",
     "static/js/2.387bde28.chunk.js": "/smart-speakers-commands-speaker/static/js/2.387bde28.chunk.js",
     "static/js/2.387bde28.chunk.js.map": "/smart-speakers-commands-speaker/static/js/2.387bde28.chunk.js.map",
     "index.html": "/smart-speakers-commands-speaker/index.html",
-    "precache-manifest.95b2c8e343176f580b2dbadb10a3e241.js": "/smart-speakers-commands-speaker/precache-manifest.95b2c8e343176f580b2dbadb10a3e241.js",
+    "precache-manifest.c36583742203db188767052852f058b2.js": "/smart-speakers-commands-speaker/precache-manifest.c36583742203db188767052852f058b2.js",
     "service-worker.js": "/smart-speakers-commands-speaker/service-worker.js",
     "static/css/main.1bc87a50.chunk.css.map": "/smart-speakers-commands-speaker/static/css/main.1bc87a50.chunk.css.map",
     "static/js/2.387bde28.chunk.js.LICENSE": "/smart-speakers-commands-speaker/static/js/2.387bde28.chunk.js.LICENSE",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.80210cd2.js",
     "static/js/2.387bde28.chunk.js",
     "static/css/main.1bc87a50.chunk.css",
-    "static/js/main.b263796a.chunk.js"
+    "static/js/main.9e556acd.chunk.js"
   ]
 }
