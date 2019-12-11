@@ -1,7 +1,7 @@
 {
   "name": "smart-speaker-commands-speaker",
   "version": "0.1.0",
-  "homepage": "https://eishis.github.io/smart-speakers-commands-speaker",
+  "homepage": "https://palan-inc.github.io/smart-speakers-commands-speaker",
   "private": true,
   "dependencies": {
     "deep-extend": ">=0.5.1",

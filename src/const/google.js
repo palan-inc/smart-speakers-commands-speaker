@@ -3,7 +3,7 @@ export const Google = {
   commands: [
     {
       title: 'オフィスBGM',
-      pronunciation: 'オフィスBGMでspotify で音楽を流して',
+      pronunciation: 'オフィスBGMで　spotify　で音楽を流して',
       description: 'palanのオフィスで音楽をかける為のコマンドです',
     },
     {
