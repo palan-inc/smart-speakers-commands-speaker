@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "304ef31ec0a20d81b8a1865d1db23e19",
+    "revision": "98c81f52251d1528763da0bdf6970563",
     "url": "/smart-speakers-commands-speaker/index.html"
   },
   {
-    "revision": "b436d2475123fa6f7658",
+    "revision": "1c4d5a8cf5f6045ff234",
     "url": "/smart-speakers-commands-speaker/static/css/main.1bc87a50.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smart-speakers-commands-speaker/static/js/2.387bde28.chunk.js.LICENSE"
   },
   {
-    "revision": "b436d2475123fa6f7658",
-    "url": "/smart-speakers-commands-speaker/static/js/main.9e556acd.chunk.js"
+    "revision": "1c4d5a8cf5f6045ff234",
+    "url": "/smart-speakers-commands-speaker/static/js/main.aaaa2de3.chunk.js"
   },
   {
     "revision": "bebae82e7b7e3f89e1c8",

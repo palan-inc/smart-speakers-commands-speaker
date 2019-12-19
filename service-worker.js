@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/smart-speakers-commands-speaker/precache-manifest.c36583742203db188767052852f058b2.js"
+  "/smart-speakers-commands-speaker/precache-manifest.4290bc6f36797c652f3f20ff9cf51021.js"
 );
 
 self.addEventListener('message', (event) => {
