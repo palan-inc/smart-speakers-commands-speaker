@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "deep-extend": ">=0.5.1",
-    "merge": ">=1.2.1",
+    "merge": ">=2.1.1",
     "randomatic": ">=3.0.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
